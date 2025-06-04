@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RTX 5090 Blog</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+    }
+    header {
+      background: linear-gradient(90deg, #76b900, #4a7300);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 255, 0, 0.3);
+    }
+    main {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    article {
+      background: #2c2c2c;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    }
+    h1, h2, h3 {
+      color: #76b900;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .img-link {
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .img-link img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      display: block;
+      transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.4s ease, box-shadow 0.4s ease;
+    }
+    .img-link:hover img {
+      transform: scale(1.1) rotate(2deg);
+      filter: brightness(1.2) contrast(1.1);
+      box-shadow: 0 0 40px rgba(118, 185, 0, 0.95);
+    }
+    .gallery img {
+      width: 100%;
+      max-width: none;
+      transition: none;
+      box-shadow: none;
+    }
+    .specs, .benchmarks, .analysis, .news, .gallery {
+      background: #1f1f1f;
+      padding: 20px;
+      border-left: 5px solid #76b900;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: #76b900;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #101010;
+      color: #aaa;
+      margin-top: 40px;
+    }
+    a {
+      color: #76b900;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RTX 5090 Blog</h1>
+    <p>All about NVIDIA’s new release — latest news, reviews, and benchmarks</p>
+  </header>
+  <main>
+    <article>
+      <h2>First Look at the RTX 5090</h2>
+      <p><strong>Date:</strong> June 2, 2025</p>
+      <a class="img-link" href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/rtx-5090/" target="_blank">
+        <img src="https://pbs.twimg.com/media/GgqTCL4XkAAuW7N.jpg" alt="RTX 5090" />
+      </a>
+      <p>
+        NVIDIA has officially unveiled the RTX 5090 — the flagship next-generation graphics card. With even more power, an improved architecture, and revolutionary energy efficiency, the RTX 5090 promises to be a leader in graphics technology.
+      </p>
+      <div class="specs">
+        <h3>Key Specifications of the RTX 5090:</h3>
+        <ul>
+          <li>New Blackwell architecture</li>
+          <li>32 GB GDDR7 video memory</li>
+          <li>3rd generation ray tracing support</li>
+          <li>DLSS 4.0 with neural network upscaling</li>
+          <li>Power consumption: 450W</li>
+          <li>PCIe 5.0, HDMI 2.1a, DisplayPort 2.1</li>
+        </ul>
+      </div>
+       <div class="gallery">
+        <h3>RTX 5090 in Games</h3>
+        <a href="https://www.nvidia.com/ru-ru/geforce/" target="_blank">
+          <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5090/geforce-rtx-50-series-games-bm-xl980-d@2x.jpg" alt="RTX 5090 in action" />
+        </a>
+        <p>
+          The image showcases the impressive gaming capabilities of the RTX 5090. Thanks to next-generation power, users can enjoy games at maximum settings in 4K resolution and beyond, without compromising quality or frame rates.
+        </p>
+      </div>
+      <div class="benchmarks">
+        <h3>Benchmark Results:</h3>
+        <ul>
+          <li>Black Myth: Wukong (4K, High, RT): 85 FPS</li>
+          <li>Cyberpunk 2077 (4K, Ultra, RT): 95 FPS</li>
+          <li>Hogwarts Legacy (4K, Ultra): 145 FPS</li>
+          <li>Forza Horizon 5 (4K, Extreme): 190 FPS</li>
+          <li>Red Dead Redemption 2 (4K, Ultra): 70 FPS</li>
+        </ul>
+      </div>
+      <div class="analysis">
+        <h3>Analysis and Conclusions:</h3>
+        <p>
+          The RTX 5090 shows a significant performance boost over the RTX 4090, especially in games with active ray tracing and high resolutions. It also maintains excellent power-to-stability ratio.
+        </p>
+        <p>
+          This graphics card will be an essential tool for enthusiasts, streamers, game developers, and professionals working with 3D graphics and neural networks.
+        </p>
+      </div>
+      <div class="news">
+        <h3>News and Rumors:</h3>
+        <p>
+          According to the latest reports, NVIDIA plans to release a special limited edition RTX 5090 Titan with even higher TDP and an improved cooling system. There's also discussion about the integration of new AI features directly at the driver level.
+        </p>
+        <p>
+          Additionally, partner models from ASUS, MSI, and Gigabyte are expected, featuring custom designs, RGB lighting, and water cooling.
+        </p>
+      </div>
+      <p>
+        Stay tuned for updates to learn more about the RTX 5090’s capabilities, overclocking potential, and comparisons with competitors!
+      </p>
+    </article>
+  </main>
+  <footer>
+    <p>© 2025 RTX 5090 Blog. Visit <a href="">Columbia.Pictures</a> for more exciting content.</p>
+  </footer>
+</body>
+</html>
